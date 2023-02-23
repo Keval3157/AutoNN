@@ -12,7 +12,7 @@ class Autonn:
         self._output_activation = None
         self._loss = loss
         self._save_path = save_path
-        self._epochs = epoch
+        self._epochs = epochs
         
         self._train_X = None
         self._train_Y = None
